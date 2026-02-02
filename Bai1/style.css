@@ -51,17 +51,17 @@ img {
   z-index: 1;
   display: flex;
   align-items: center;
-  opacity: 30;
+  opacity: 0;
   pointer-events: none;
   transform: scale(0.8);
   transition: 0.25s;
 }
 
-/* .gallery.show {
+.gallery.show {
   opacity: 1;
   pointer-events: auto;
   transform: scale(1);
-} */
+}
 
 .gallery-inner {
   width: 70%;
@@ -73,6 +73,7 @@ img {
   position: absolute;
   color: rgba(255, 255, 255, 0.8);
   font-size: 50px;
+  cursor: pointer;
 }
 
 .prev {
