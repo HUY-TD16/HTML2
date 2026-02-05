@@ -54,7 +54,7 @@ body {
   background-color: #fff;
   border-radius: 5px;
   overflow: hidden;
-  animation: showModel linear 0.2s;
+  animation: showModel 0.2s linear 2;
   position: relative;
   margin: 200px auto;
 }
